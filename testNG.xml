@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Sanity">
+    <listeners>
+        <listener class-name="org.SeleniumJavaPOM.reports.ExtentListener" />
+    </listeners>
+
+    <test name= "Print output to External excel" >
+        <classes>
+            <class name= "org.SeleniumJavaPOM.useCases.useCase_1Test" />
+        </classes>
+    </test>
+
+    <test name= "Read test data from excel" >
+        <classes>
+            <class name= "org.SeleniumJavaPOM.useCases.useCase_2Test" />
+        </classes>
+    </test>
+
+
+</suite>
