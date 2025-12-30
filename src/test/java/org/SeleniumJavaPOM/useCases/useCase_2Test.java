@@ -7,7 +7,7 @@ import org.SeleniumJavaPOM.utilities.CommonUtils;
 import org.SeleniumJavaPOM.utilities.ExcelUtils;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
-import static org.SeleniumJavaPOM.reports.ExtentLogger.*;
+import static org.SeleniumJavaPOM.utilities.reportUtils.ExtentLogger.*;
 
 import java.io.IOException;
 

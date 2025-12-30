@@ -1,4 +1,4 @@
-package org.SeleniumJavaPOM.reports;
+package org.SeleniumJavaPOM.utilities.reportUtils;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;

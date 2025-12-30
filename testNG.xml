@@ -3,7 +3,7 @@
 
 <suite name="Sanity">
     <listeners>
-        <listener class-name="org.SeleniumJavaPOM.reports.ExtentListener" />
+        <listener class-name="org.SeleniumJavaPOM.utilities.reportUtils.ExtentListener" />
     </listeners>
 
     <test name= "Print output to External excel" >
